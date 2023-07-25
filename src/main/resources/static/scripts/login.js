@@ -55,7 +55,7 @@ form.addEventListener("submit", function(event) {
         console.log("Funciona esta parte");
 
         $.ajax({
-            url: 'http://localhost:8080/api/user/' + userEmail + '/' + userPassword,
+            url: 'http://140.238.190.51:8080/api/user/' + userEmail + '/' + userPassword,
             type: 'GET',
             dataType: 'json',
             async: false,

@@ -6,7 +6,7 @@ if (sessionName === "NO DEFINIDO") {
     document.getElementById("userRegistered").innerText = "Bienvenido " + sessionName;
 
     $.ajax({
-        url: 'http://localhost:8080/api/user/all',
+        url: 'http://140.238.190.51:8080/api/user/all',
         type: 'GET',
         dataType: 'json',
         success: function(response) {
